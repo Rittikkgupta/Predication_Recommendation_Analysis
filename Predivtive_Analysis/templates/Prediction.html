@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Center_Prediction</title>
+    <!-- Add Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* background-color: rgb(186, 176, 176); */
+
+        }
+
+        #container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        #chartContainer {
+            width: 60%;
+            height: 400px;
+        }
+
+        #ruleContainer {
+            width: 35%;
+            margin-left: 20px;
+        }
+
+        #ruleTable th {
+            text-align: left;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        #ruleTable td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contact Center</h1>
+    <form id="predictionForm" action="#" method="POST">
+        <!-- <label for="day">Day:</label>
+        <select id="day" name="day">
+            <option value="">None</option>
+            <script>
+                for (var i = 1; i <= 31; i++) {
+                    document.write(`<option value="${i}">${i}</option>`);
+                }
+            </script>
+        </select> -->
+        <label for="month">Month:</label>
+        <select id="month" name="month">
+            <script>
+                var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+                for (var i = 0; i < months.length; i++) {
+                    document.write(`<option value="${i + 1}">${months[i]}</option>`);
+                }
+            </script>
+        </select>
+        <label for="year">Year:</label>
+        <select id="year" name="year">
+            <script>
+                for (var i = 2025; i >= 1990; i--) {
+                    document.write(`<option value="${i}">${i}</option>`);
+                }
+            </script>
+        </select>
+
+        <!-- <label for="hour">Hour:</label>
+        <select id="hour" name="hour">
+            <option value="">None</option>
+            <script>
+                for (var i = 0; i <= 23; i++) {
+                    document.write(`<option value="${i}">${i}</option>`);
+                }
+            </script>
+        </select> -->
+
+        <label for="attribute">Attribute:</label>
+        <select id="attribute" name="attribute" required>
+            <option value="noofCalls">No. Of Calls</option>
+            <option value="averageTalkTime">Average Talk Time</option>
+            <option value="agentIdleTime">Agent Idle Time</option>
+            <option value="callsPerAgent">Calls Per Agent</option>
+            <option value="averageHandlingTime">Average Handling Time</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="response"></div>
+
+    <div id="container">
+        <div id="chartContainer">
+            <h2>Prediction Analysis</h2>
+            <h2  onclick="redirectToHome() ">Recommendation Analysis </h2>
+
+            <canvas id="lineChart"></canvas>
+        </div>
+
+        <!-- <div id="ruleContainer">
+            <h2>Recommendation Analysis</h2>
+            <table id="ruleTable">
+                <thead>
+                    <tr>
+                        <th>Rules</th>
+                        <th>Reason</th>
+                        <th>Recommendation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                </tbody>
+            </table>
+        </div> -->
+    </div>
+
+    <script>
+        var myChart; // Global variable to store chart instance
+
+        document.getElementById("predictionForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            // Get values of mandatory fields
+            var monthInput = document.getElementById("month").value;
+            var yearInput = document.getElementById("year").value;
+            var attributeInput = document.getElementById("attribute").value;
+
+            // Validate mandatory fields
+            if (monthInput === "" || yearInput === "" || attributeInput === "") {
+                alert("Please fill in all mandatory fields.");
+                return;
+            }
+
+            // Get values of optional fields
+            // var dayInput = document.getElementById("day").value || null;
+            // var hourInput = document.getElementById("hour").value || null;
+
+            var apiUrl;
+            var requestData = {
+                month: parseInt(monthInput),
+                year: parseInt(yearInput)
+            };
+
+            switch (attributeInput) {
+                case "noofCalls":
+                    apiUrl = 'http://127.0.0.1:8000/CallsPredictJson/';
+                    break;
+                case "averageTalkTime":
+                    apiUrl = 'http://127.0.0.1:8000/Average_Talktime/';
+                    break;
+                case "averageHandlingTime":
+                    apiUrl = 'http://127.0.0.1:8000/Handing_time/';
+                    break;
+                case "callsPerAgent":
+                    apiUrl = 'http://127.0.0.1:8000/Calls_per_Agent/';
+                    break;
+                case "agentIdleTime":
+                    apiUrl = 'http://127.0.0.1:8000/Idletime/';
+                    break;
+                default:
+                    return;
+            }
+
+            callAPI(apiUrl, requestData);
+        });
+
+        function callAPI(url, dataToSend) {
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(dataToSend)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    // document.getElementById("response").innerText = JSON.stringify(data);
+                    // Clear previous chart instance if exists
+                    if (myChart) {
+                        myChart.destroy();
+                    }
+                    if (data.actual_calls || data.predicted_calls) {
+                        drawLineChart(data.actual_calls, data.predicted_calls, 'Number of Calls');
+                    } else if (data.actual_Idletime || data.predicted_Idletime) {
+                        drawLineChart(data.actual_Idletime, data.predicted_Idletime, 'Agent Idle Time');
+                    } else if (data.actual_talktime || data.predicted_talktime) {
+                        drawLineChart(data.actual_talktime, data.predicted_talktime, 'Average Talk Time');
+                    } else if (data.actual_calls_per_agent || data.predicted_calls_per_agent) {
+                        drawLineChart(data.actual_calls_per_agent, data.predicted_calls_per_agent, 'Calls Per Agent');
+                    } else if (data.actual_handlingtime || data.predicted_handlingtime) {
+                        drawLineChart(data.actual_handlingtime, data.predicted_handlingtime, 'Average Handling Time');
+                    }
+                    updateRuleTable(data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+        function drawLineChart(actualData, predictedData, yAxisLabel) {
+            var ctx = document.getElementById('lineChart').getContext('2d');
+            myChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: Array.from({ length: actualData && actualData.length > 0 ? actualData.length : predictedData.length }, (_, i) => i + 1),
+                    datasets: [{
+                        label: 'Actual Data',
+                        data: actualData && actualData.length > 0 ? actualData : [],
+                        borderColor: 'blue',
+                        borderWidth: 1,
+                        fill: false
+                    }, {
+                        label: 'Predicted Data',
+                        data: predictedData,
+                        borderColor: 'red',
+                        borderWidth: 1,
+                        fill: false
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        xAxes: [{
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Day'
+                            }
+                        }],
+                        yAxes: [{
+                            scaleLabel: {
+                                display: true,
+                                labelString: yAxisLabel
+                            }
+                        }]
+                    }
+                }
+            });
+        }
+
+        function updateRuleTable(data) {
+            var tableBody = document.querySelector("#ruleTable tbody");
+            tableBody.innerHTML = ""; // Clear previous content
+
+            if (data.rules && data.rules.length > 0) {
+                // Add new rows with data
+                data.rules.forEach(rule => {
+                    var row = `
+                        <tr>
+                            <td>${rule.rule}</td>
+                            <td>${rule.reason}</td>
+                            <td>${rule.recommendation}</td>
+                        </tr>`;
+                    tableBody.innerHTML += row;
+                });
+            } else {
+                // If no rules are available, display a message
+                tableBody.innerHTML = `<tr><td colspan="3">No rules available</td></tr>`;
+            }
+        }
+        function redirectToHome() {
+            window.location.href = "Home.html";
+        }
+
+    </script>
+
+    <!-- code for notification -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-messaging.js"></script>
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-messaging.js"></script> -->
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyDmtXy5d4d8O2kMx8gq3bpq6t49yJRwTng",
+            authDomain: "recommendation-analysis-9d5ef.firebaseapp.com",
+            projectId: "recommendation-analysis-9d5ef",
+            storageBucket: "recommendation-analysis-9d5ef.appspot.com",
+            messagingSenderId: "876715977333",
+            appId: "1:876715977333:web:57487268ea326cfcae263c",
+            measurementId: "G-WDGP80L30F"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const messaging = firebase.messaging();
+
+
+
+        messaging.getToken({ vapidKey: 'BOYUoBhR8DE2cLxfaudEJjb01lB68W-51w2YSfQYDDVX8169499qzQhSaBcJviWS7zWOoPcWXnGo-LlZ3u_q2V0' })
+            .then(function (currentToken) {
+                if (currentToken) {
+                    console.log('Token:', currentToken);
+                } else {
+                    console.log('No registration token available. Request permission to generate one.');
+                }
+            })
+            .catch(function (err) {
+                console.log('An error occurred while retrieving token. ', err);
+            });
+
+        messaging.requestPermission()
+            .then(function () {
+                console.log('Notification permission granted.');
+                return messaging.getToken();
+            })
+            .catch(function (err) {
+                console.log('Unable to get permission to notify.', err);
+            });
+
+        messaging.onMessage(function (payload) {
+            console.log('Message received. ', payload);
+        });
+
+        function sendTokenToBackend() {
+            console.log('Waiting for token...');
+
+            messaging.getToken()
+                .then(function (token) {
+                    if (token) {
+                        console.log('Token received:', token);
+
+                        fetch('http://127.0.0.1:8000/Store_token/', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({ "Token": token })
+                        })
+                            .then(function (response) {
+                                if (response.ok) {
+                                    console.log('Token sent successfully');
+                                } else {
+                                    console.error('Failed to send token:', response.statusText);
+                                }
+                            })
+                            .catch(function (error) {
+                                console.error('Error sending token:', error);
+                            });
+                    } else {
+                        console.log('No token available. Waiting for permission...');
+                    }
+                })
+                .catch(function (error) {
+                    console.error('Error getting token:', error);
+                });
+        }
+
+        // Call the function to start sending the token
+        sendTokenToBackend();
+
+        // Register the service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/firebase-messaging-sw.js')
+                .then(function (registration) {
+                    console.log('Service Worker registration successful with scope: ', registration.scope);
+                })
+                .catch(function (err) {
+                    console.log('Service Worker registration failed: ', err);
+                });
+        } else {
+            console.error('Service workers are not supported.');
+        }
+
+
+
+    </script>
+
+
+
+</html>

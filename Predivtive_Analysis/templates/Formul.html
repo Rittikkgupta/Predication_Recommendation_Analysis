@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-brand {
+            background-color: #8d9592;
+            text-align: center;
+            margin-top: 6px;
+            padding: 1rem;
+            color: rgb(0, 0, 0);
+            size: 5px;
+            font-size: 24px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .box {
+            background-color: rgb(186, 176, 176);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border: 2px solid black;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .box-1 {
+            width: 1462px;
+            height: 250px;
+            overflow-y: auto;
+        }
+
+        .box-2 {
+            width: 1462px;
+            height: 361px;
+        }
+
+        .box__content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            max-height: 180px;
+            padding-right: 20px;
+        }
+
+        .box__content button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            flex: 1;
+            max-width: calc(20% - 1rem);
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        .footer__button {
+            background-color: #2b6cb0;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .footer__button:hover {
+            background-color: #2c5282;
+        }
+
+        .box-header {
+            margin-bottom: 10px;
+        }
+
+        .box-1 .box-content .text-box {
+            width: 180px;
+            height: 60px;
+            margin-right: 25px;
+            margin-bottom: 25px;
+        }
+
+        .box-1 .box-content button {
+            margin-bottom: 10px;
+        }
+
+        .box-2 .box-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: flex-end;
+            align-items: flex-end;
+            position: absolute;
+            bottom: 30px;
+            right: 23px;
+            width: 270px;
+            height: 312px;
+            overflow-y: auto;
+            border: 2px solid black;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+        .box-2 .box-content button {
+            width: calc((100% - 4 * 2px) / 4);
+            height: 30px;
+        }
+
+        .box-2 .box-content .operation-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            height: 10px;
+            width: 100;
+        }
+
+        .box-2 .box-content .calculator-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .box-2 .box-content .calculator-buttons button {
+            width: calc((100% - 4 * 2px) / 4);
+            height: 30px;
+        }
+
+        .formula-box {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 10px;
+            display: flex;
+            overflow-x: auto;
+            width: calc(100% - 440px);
+        }
+
+        .mini-table-container {
+            width: 20%;
+            height: 250px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            margin-top: 13px;
+        }
+
+        .mini-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .mini-table th,
+        .mini-table td {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+
+        .mini-table td:nth-child(2) {
+            width: 80%;
+        }
+
+        .Submit-formula {
+            margin: 20px;
+            margin-left: 55px;
+        }
+
+        .recommendation-button {
+            margin: 7px 310px;
+            /* Moves the button above */
+            /* Ensures it's on a new line */
+
+        }
+
+
+        /* Recommendation box styles */
+        .recommendation-box {
+            width: 20%;
+            display: none;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 130px;
+            margin-left: 335px;
+            margin-top: -152px;
+            height: 117px;
+
+        }
+
+        .recommendation-box.show {
+            display: block;
+        }
+
+        .recommendation-box input[type="text"] {
+            width: calc(100% - 20px);
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .recommendation-box button {
+            width: 100%;
+            background-color: #2b6cb0;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            padding: 8px;
+            cursor: pointer;
+        }
+
+        .recommendation-box button:hover {
+            background-color: #2c5282;
+        }
+
+        .mini-screen {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 20px;
+            z-index: 1000;
+            display: none;
+            /* Initially hidden */
+        }
+
+        .mini-screen input[type="text"] {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .mini-screen button {
+            width: 100%;
+            background-color: #2b6cb0;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .mini-screen button:hover {
+            background-color: #2c5282;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-brand">Cognicx</div>
+    </nav>
+
+    <div class="container">
+        <div class="box box-1">
+            <div class="box-header">
+                <button onclick="openMiniScreen()">Column</button>
+            </div>
+            <div class="mini-screen" id="mini-screen">
+                <input type="text" id="column-name" placeholder="Enter Column Name">
+                <button onclick="submitColumn()">Add Column</button>
+            </div>
+            <div class="box-content" id="box-content-1">
+                <!-- Buttons will be added here -->
+            </div>
+        </div>
+
+        <div class="box box-2">
+            <div class="box-content" id="box-content-2">
+                <!-- Buttons will be added here -->
+            </div>
+            <input type="text" class="formula-box" id="formula-box" placeholder="Create a formula">
+            <div class="mini-table-container">
+                <table class="mini-table" id="mini-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Formula</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Table rows will be added here -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="recommendation-box" id="recommendation-box">
+                <input type="text" id="group-query-input" placeholder="Enter Group Query">
+                <input type="text" id="recommendation-input" placeholder="Enter Recommendation">
+                <button onclick="submitRecommendation()">Submit Recommendation</button>
+            </div>
+            <button class="Submit-formula" onclick="submitFormula()">Submit Formula</button>
+            <button class="recommendation-button" onclick="toggleRecommendationBox()">Recommendation</button>
+        </div>
+    </div>
+
+    <script>
+        // Retrieve response data from localStorage
+        const responseData = JSON.parse(localStorage.getItem('response'));
+
+        // Populate buttons in box-1
+        const boxContent1 = document.getElementById('box-content-1');
+        responseData.columns.forEach(column => {
+            const button = document.createElement('button');
+            button.textContent = column;
+            button.classList.add('text-box'); // Add class for styling
+            button.addEventListener('click', () => addToFormula(button.textContent)); // Add click event listener
+            boxContent1.appendChild(button);
+        });
+
+        // Populate buttons in box-2
+        const boxContent2 = document.getElementById('box-content-2');
+        const calculatorButtons = ['1', '2', '+', '3', '4', '-', '5', '6', '*', '7', '8', '/', '9', '0', '=', 'AND', 'OR', 'NOT', '<', '>', 'C'];
+        calculatorButtons.forEach(buttonText => {
+            const button = document.createElement('button');
+            button.textContent = buttonText;
+            button.addEventListener('click', () => {
+                if (buttonText === 'C') {
+                    clearFormulaBox(); // Call clearFormulaBox() function when 'C' button is clicked
+                } else {
+                    addToFormula(buttonText); // Call addToFormula() function for other buttons
+                }
+            });
+            boxContent2.appendChild(button);
+        });
+
+
+        function addToFormula(text) {
+            const formulaBox = document.getElementById('formula-box');
+            formulaBox.value += text + ' '; // Add space after each character
+        }
+
+        // Global variable to keep track of the previous input
+        // let previousInput = '';
+        // let previousIsText = false;
+        // let previousIsOperator = false;
+
+        // function addToFormula(text) {
+        //     const formulaBox = document.getElementById('formula-box');
+        //     const currentValue = formulaBox.value.trim(); // Get the current value of the formula box
+
+        //     // Check if the text being added is a text or an arithmetic/logical operator
+        //     const isText = /[a-zA-Z]/.test(text);
+        //     const isOperator = /[\+\-\*\/<>=ANDORNOT]/i.test(text); // Add any other logical operators as needed
+
+        //     // Check if the formula box is empty
+        //     if (currentValue === '') {
+        //         if (!isText) {
+        //             alert("The formula must start with a text.");
+        //             return; // Exit the function
+        //         }
+        //     } else {
+        //         // Check if the current text violates the alternating pattern
+        //         if ((previousIsText && isText) || (previousIsOperator && isOperator)) {
+        //             alert("Please enter a correct formula. Two consecutive texts or two consecutive arithmetic/logical operators are not allowed.");
+        //             return; // Exit the function
+        //         }
+        //     }
+
+        //     formulaBox.value += text + ' '; // Add space after each character
+
+        //     // Update previousIsText and previousIsOperator
+        //     previousIsText = isText;
+        //     previousIsOperator = isOperator;
+
+        //     // Check for consecutive operators after adding the new text
+        //     const lastTwoChars = formulaBox.value.slice(-2);
+        //     if (isOperator && /[ +\-*/<>=]/.test(lastTwoChars)) {
+        //         alert("Please enter a correct formula. Two consecutive arithmetic/logical operators are not allowed.");
+        //         formulaBox.value = formulaBox.value.slice(0, -2); // Remove the last two characters
+        //     }
+        // }
+
+        function clearFormulaBox() {
+            const formulaBox = document.getElementById('formula-box');
+            formulaBox.value = " ";
+        }
+
+        function submitRecommendation() {
+            const recommendation = document.getElementById('recommendation-input').value.trim(); // Get recommendation input
+            const formula_input = document.getElementById('group-query-input').value.trim(); // Get formula input
+            if (recommendation === "") {
+                alert("Please enter a recommendation."); // Show alert if recommendation is empty
+                return; // Exit function
+            }
+            else if (formula_input === "") {
+                alert("Please enter a formula."); // Show alert if formula is empty
+                return; // Exit function
+            }
+
+            // Combine formula and recommendation
+            const data = {
+                query_group: formula_input,
+                recommendation: recommendation
+            };
+
+            // Send POST request to the API endpoint
+            fetch('http://127.0.0.1:8000/GroupRules/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert("Recommendation submitted successfully");
+                    } else {
+                        alert("Failed to submit recommendation. Please try again.");
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function sendPostRequest() {
+            const formula = document.getElementById('formula-box').value;
+            const data = { formula: formula };
+
+            fetch('http://127.0.0.1:8000/Formula_Show/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.querySelector('#mini-table tbody');
+                    tableBody.innerHTML = ''; // Clear existing table rows
+
+                    data.forEach(row => {
+                        const newRow = `
+                        <tr>
+                            <td>${row.ID}</td>
+                            <td>${row.Formula}</td>
+                        </tr>
+                    `;
+                        tableBody.innerHTML += newRow;
+                    });
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        // Call the function to send the POST request when the page loads
+        sendPostRequest();
+
+        function submitFormula() {
+            const formula = document.getElementById('formula-box').value.trim(); // Trim whitespace
+            if (formula === "") {
+                alert("Please enter a formula."); // Show alert if formula is empty
+                return; // Exit function
+            }
+
+            // Retrieve tableName from localStorage
+            const tableName = localStorage.getItem('tableName');
+
+            const data = {
+                formula: formula,
+                tableName: tableName // Include tableName in the data object
+            };
+
+            fetch('http://127.0.0.1:8000/Add_Formula/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    // Handle response if needed
+                    // Refresh the formula table
+                    refreshFormulaTable();
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function openMiniScreen() {
+            const miniScreen = document.getElementById('mini-screen');
+            miniScreen.style.display = 'block';
+        }
+
+        // Function to close the mini screen
+        function closeMiniScreen() {
+            const miniScreen = document.getElementById('mini-screen');
+            miniScreen.style.display = 'none';
+        }
+
+        // Function to submit the column name
+        function submitColumn() {
+            const columnName = document.getElementById('column-name').value.trim(); // Get column name input
+            console.log("columnName", columnName)
+            if (columnName === "") {
+                alert("Please enter a column name."); // Show alert if column name is empty
+                return; // Exit function
+            }
+
+            // Send POST request to the API endpoint
+            fetch('http://127.0.0.1:8000/Add_Column/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ "column_name": columnName })
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert("Column added successfully");
+                        closeMiniScreen(); // Close the mini screen
+                    } else {
+                        alert("Failed to add column. Please try again.");
+                        closeMiniScreen();
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function refreshFormulaTable() {
+            // Call the function to send the POST request to fetch and display the updated formula table
+            sendPostRequest();
+            alert("Formula Submitted Successfully");
+            clearFormulaBox();
+        }
+
+        function toggleRecommendationBox() {
+            const recommendationBox = document.getElementById('recommendation-box');
+            recommendationBox.classList.toggle('show');
+        }
+    </script>
+</body>
+
+</html>

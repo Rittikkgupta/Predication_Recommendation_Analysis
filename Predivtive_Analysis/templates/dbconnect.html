@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Connect to Server</title>
+    <style>
+        .login-form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-form label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-form">
+        <h2>Server Login</h2>
+        <form id="serverLoginForm">
+            <label for="serverName">Server name:</label>
+            <input type="text" id="serverName" name="serverName">
+
+            <label for="dbName">Database name:</label>
+            <input type="text" id="dbName" name="dbName">
+
+            <label for="tableName">Table name:</label>
+            <input type="text" id="tableName" name="tableName">
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <button id="submit-button">Submit Formula</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("submit-button").addEventListener("click", function(event) {
+            event.preventDefault(); // Prevent the form from submitting normally
+            
+            const serverName = document.getElementById("serverName").value;
+            const userName = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            const dbName = document.getElementById("dbName").value;
+            const tableName = document.getElementById("tableName").value;
+
+            // Store the information in the databaseInfo object
+            const databaseInfo = {
+                server_name: serverName,
+                User_name: userName,
+                Password: password,
+                DB_name: dbName,
+                Table_name: tableName
+            };
+
+            const requestData = {
+                server_name: serverName,
+                User_name: userName,
+                Password: password,
+                DB_name: dbName,
+                Table_name: tableName
+            };
+
+            const requestOptions = {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(requestData)
+            };
+
+            const url = 'http://127.0.0.1:8000/Attribute/';
+            fetch(url, requestOptions)
+                .then(response => response.json())
+                .then(data => {
+                    // Store response data in localStorage
+                    localStorage.setItem('dbName', dbName);
+                    localStorage.setItem('tableName', tableName);
+                    localStorage.setItem('response', JSON.stringify(data));
+                    // Redirect to formula.html
+                    window.location.href = 'formul.html';
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+
+</body>
+
+</html>

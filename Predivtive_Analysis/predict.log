@@ -1,0 +1,1914 @@
+Forbidden (CSRF token missing.): /Store_token/
+"POST /Store_token/ HTTP/1.1" 403 2506
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /Store_token/
+Traceback (most recent call last):
+  File "C:\Users\windows 10\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\windows 10\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\windows 10\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\windows 10\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\windows 10\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py", line 2685, in dispatch
+    return super(StoreToken, self).dispatch(*args, **kwargs)
+                 ^^^^^^^^^^
+NameError: name 'StoreToken' is not defined
+"POST /Store_token/ HTTP/1.1" 500 80430
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /Store_token/
+"POST /Store_token/ HTTP/1.1" 500 30
+Internal Server Error: /Store_token/
+"POST /Store_token/ HTTP/1.1" 500 30
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /Store_token/
+"POST /Store_token/ HTTP/1.1" 500 30
+Internal Server Error: /Store_token/
+"POST /Store_token/ HTTP/1.1" 500 30
+Internal Server Error: /Store_token/
+"POST /Store_token/ HTTP/1.1" 500 30
+Internal Server Error: /Store_token/
+"POST /Store_token/ HTTP/1.1" 500 30
+Internal Server Error: /Store_token/
+"POST /Store_token/ HTTP/1.1" 500 30
+Watching for file changes with StatReloader
+"POST /Store_token/ HTTP/1.1" 200 42
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+- Broken pipe from ('127.0.0.1', 52487)
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"GET / HTTP/1.1" 200 14340
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"GET / HTTP/1.1" 200 14340
+"POST /Send/ HTTP/1.1" 200 20
+Forbidden (CSRF token missing.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2506
+Forbidden (CSRF token missing.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2506
+C:\Contact center2\Predivtive_Analysis\Predivtive_Analysis\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+- Broken pipe from ('127.0.0.1', 52642)
+"POST /Store_token/ HTTP/1.1" 200 42
+- Broken pipe from ('127.0.0.1', 52643)
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"GET / HTTP/1.1" 200 14340
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+- Broken pipe from ('127.0.0.1', 52649)
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+- Broken pipe from ('127.0.0.1', 52650)
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+C:\Contact center2\Predivtive_Analysis\Predivtive_Analysis\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (CSRF token missing.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2506
+Forbidden (CSRF token missing.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2506
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /Average_Talktime/
+"POST /Average_Talktime/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /Idletime/
+"POST /Idletime/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /Idletime/
+"POST /Idletime/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /Idletime/
+"POST /Idletime/ HTTP/1.1" 403 2870
+"GET / HTTP/1.1" 200 14340
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7720
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /Average_Talktime/
+"POST /Average_Talktime/ HTTP/1.1" 403 2870
+"GET / HTTP/1.1" 200 14340
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (CSRF token missing.): /Store_token/
+"POST /Store_token/ HTTP/1.1" 403 2506
+Forbidden (CSRF token missing.): /Store_token/
+"POST /Store_token/ HTTP/1.1" 403 2506
+Forbidden (CSRF token missing.): /Store_token/
+"POST /Store_token/ HTTP/1.1" 403 2506
+Forbidden (CSRF token missing.): /Store_token/
+"POST /Store_token/ HTTP/1.1" 403 2506
+Watching for file changes with StatReloader
+"POST /Store_token/ HTTP/1.1" 200 42
+Watching for file changes with StatReloader
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3112
+"GET / HTTP/1.1" 200 14406
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3112
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3112
+"GET / HTTP/1.1" 200 14406
+"GET / HTTP/1.1" 200 14406
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3112
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3112
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+C:\IONICX\Contact center2\Predivtive_Analysis\Predivtive_Analysis\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14406
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3112
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3112
+"GET / HTTP/1.1" 200 14360
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3112
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3112
+"GET / HTTP/1.1" 200 14360
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3112
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14360
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3112
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"POST /Average_Talktime/ HTTP/1.1" 200 756
+"POST /Idletime/ HTTP/1.1" 200 575
+"POST /Handing_time/ HTTP/1.1" 200 920
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7720
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"OPTIONS /Store_token/ HTTP/1.1" 200 0
+"POST /Store_token/ HTTP/1.1" 200 42
+"OPTIONS /CallsPredictJson/ HTTP/1.1" 200 0
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"OPTIONS /Average_Talktime/ HTTP/1.1" 200 0
+"POST /Average_Talktime/ HTTP/1.1" 200 756
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /Store_token/
+"POST /Store_token/ HTTP/1.1" 403 2870
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /Store_token/
+"POST /Store_token/ HTTP/1.1" 403 2870
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Forbidden (CSRF cookie not set.): /CallsPredictJson/
+"POST /CallsPredictJson/ HTTP/1.1" 403 2870
+C:\Contact center2\Predivtive_Analysis\Predivtive_Analysis\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+C:\Contact center2\Predivtive_Analysis\Predivtive_Analysis\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Predivtive_Analysis\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"POST /Idletime/ HTTP/1.1" 200 575
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"POST /Idletime/ HTTP/1.1" 200 575
+"POST /Average_Talktime/ HTTP/1.1" 200 756
+"POST /Handing_time/ HTTP/1.1" 200 920
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 7304
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Home_page/ HTTP/1.1" 200 7304
+"POST /Home_page/ HTTP/1.1" 200 7304
+"POST /Home_page/ HTTP/1.1" 200 7304
+"POST /Home_page/ HTTP/1.1" 200 7304
+"POST /Home_page/ HTTP/1.1" 200 7304
+"POST /Home_page/ HTTP/1.1" 200 7304
+"POST /Home_page/ HTTP/1.1" 200 7304
+"POST /Calls_per_Agent/ HTTP/1.1" 200 734
+"POST /Calls_per_Agent/ HTTP/1.1" 200 603
+"POST /Calls_per_Agent/ HTTP/1.1" 200 684
+"POST /Calls_per_Agent/ HTTP/1.1" 200 603
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Calls_per_Agent/ HTTP/1.1" 200 603
+"POST /Calls_per_Agent/ HTTP/1.1" 200 613
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 7304
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Home_page/ HTTP/1.1" 200 7304
+"POST /Home_page/ HTTP/1.1" 200 7304
+"POST /Home_page/ HTTP/1.1" 200 7304
+"POST /Home_page/ HTTP/1.1" 200 7304
+"POST /Home_page/ HTTP/1.1" 200 7304
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+"POST /Send/ HTTP/1.1" 200 20
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 7304
+"GET /dbconnect.html HTTP/1.1" 200 3600
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Attribute/ HTTP/1.1" 200 412
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 906
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Idletime/ HTTP/1.1" 200 575
+"POST /Idletime/ HTTP/1.1" 200 385
+"POST /Idletime/ HTTP/1.1" 200 385
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Idletime/ HTTP/1.1" 200 542
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 7304
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 7304
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Attribute_status_Update/ HTTP/1.1" 200 53
+"POST /Home_page/ HTTP/1.1" 200 7306
+"GET /dbconnect.html HTTP/1.1" 200 3600
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Home_page/ HTTP/1.1" 200 7306
+"POST /Send/ HTTP/1.1" 200 20
+"GET /dbconnect.html HTTP/1.1" 200 3600
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Home_page/ HTTP/1.1" 200 7306
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /dbconnect.html HTTP/1.1" 200 3600
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Attribute/ HTTP/1.1" 200 412
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 906
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 906
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Add_Formula/ HTTP/1.1" 200 41
+"POST /Formula_Show/ HTTP/1.1" 200 968
+"POST /GroupRules/ HTTP/1.1" 200 47
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 968
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Add_Formula/ HTTP/1.1" 200 41
+"POST /Formula_Show/ HTTP/1.1" 200 1025
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+- Broken pipe from ('127.0.0.1', 53792)
+- Broken pipe from ('127.0.0.1', 53808)
+- Broken pipe from ('127.0.0.1', 53818)
+- Broken pipe from ('127.0.0.1', 53835)
+Internal Server Error: /Send/
+- Broken pipe from ('127.0.0.1', 53845)
+- Broken pipe from ('127.0.0.1', 53851)
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Home_page/ HTTP/1.1" 200 8922
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 8280
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Home_page/ HTTP/1.1" 200 8280
+"POST /Home_page/ HTTP/1.1" 200 8280
+"POST /Home_page/ HTTP/1.1" 200 8280
+"POST /Home_page/ HTTP/1.1" 200 8280
+"POST /Home_page/ HTTP/1.1" 200 8280
+"POST /Home_page/ HTTP/1.1" 200 8280
+"POST /Home_page/ HTTP/1.1" 200 8280
+"POST /Home_page/ HTTP/1.1" 200 8280
+"POST /Home_page/ HTTP/1.1" 200 8280
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET /dbconnect.html HTTP/1.1" 200 3600
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 8280
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /dbconnect.html HTTP/1.1" 200 3600
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Attribute/ HTTP/1.1" 200 925
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 1025
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Add_Formula/ HTTP/1.1" 200 41
+"POST /Formula_Show/ HTTP/1.1" 200 1090
+"POST /GroupRules/ HTTP/1.1" 200 47
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 1090
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Add_Formula/ HTTP/1.1" 200 41
+"POST /Formula_Show/ HTTP/1.1" 200 1157
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 1157
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 1157
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 1157
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /GroupRules/ HTTP/1.1" 200 47
+- Broken pipe from ('127.0.0.1', 53938)
+- Broken pipe from ('127.0.0.1', 53950)
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+- Broken pipe from ('127.0.0.1', 53977)
+- Broken pipe from ('127.0.0.1', 53996)
+- Broken pipe from ('127.0.0.1', 54008)
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+"POST /Send/ HTTP/1.1" 200 20
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 8554
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /dbconnect.html HTTP/1.1" 200 3600
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Attribute/ HTTP/1.1" 200 925
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 1157
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+"POST /GroupRules/ HTTP/1.1" 200 47
+- Broken pipe from ('127.0.0.1', 54099)
+- Broken pipe from ('127.0.0.1', 54116)
+Watching for file changes with StatReloader
+- Broken pipe from ('127.0.0.1', 54131)
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+- Broken pipe from ('127.0.0.1', 54157)
+- Broken pipe from ('127.0.0.1', 54167)
+"POST /Send/ HTTP/1.1" 200 20
+"POST /GroupRules/ HTTP/1.1" 200 47
+- Broken pipe from ('127.0.0.1', 54186)
+- Broken pipe from ('127.0.0.1', 54194)
+"POST /GroupRules/ HTTP/1.1" 200 47
+- Broken pipe from ('127.0.0.1', 54204)
+- Broken pipe from ('127.0.0.1', 54229)
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 1157
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Add_Formula/ HTTP/1.1" 200 41
+"POST /Formula_Show/ HTTP/1.1" 200 1221
+"POST /GroupRules/ HTTP/1.1" 200 47
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 1221
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+- Broken pipe from ('127.0.0.1', 54240)
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+Bad Request: /Attribute/
+"POST /Attribute/ HTTP/1.1" 400 383
+"GET /formul.html HTTP/1.1" 200 18028
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Home_page/ HTTP/1.1" 200 8689
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Average_Talktime/ HTTP/1.1" 200 756
+"POST /Formula_Show/ HTTP/1.1" 200 1221
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Home_page/ HTTP/1.1" 200 8689
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"POST /Average_Talktime/ HTTP/1.1" 200 756
+"POST /Average_Talktime/ HTTP/1.1" 200 615
+"POST /Average_Talktime/ HTTP/1.1" 200 626
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /CallsPredictJson/ HTTP/1.1" 200 819
+"POST /CallsPredictJson/ HTTP/1.1" 200 758
+"POST /CallsPredictJson/ HTTP/1.1" 200 987
+"POST /CallsPredictJson/ HTTP/1.1" 200 950
+"GET / HTTP/1.1" 200 14340
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Idletime/ HTTP/1.1" 200 497
+"POST /Idletime/ HTTP/1.1" 200 542
+"POST /Idletime/ HTTP/1.1" 200 575
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3158
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3076
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3076
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3076
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3076
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3137
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3137
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3227
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+Watching for file changes with StatReloader
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Snooze_notification/ HTTP/1.1" 200 40
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7720
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Snooze_notification/ HTTP/1.1" 200 40
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+"GET /? HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3190
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3190
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3191
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3191
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3423
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3423
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /CallsPredictJson/ HTTP/1.1" 200 819
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 8689
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /CallsPredictJson/ HTTP/1.1" 200 985
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"POST /CallsPredictJson/ HTTP/1.1" 200 819
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 8689
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"POST /Send/ HTTP/1.1" 200 20
+- Broken pipe from ('127.0.0.1', 51475)
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+Not Found: /undefined
+"GET /undefined HTTP/1.1" 404 7714
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 8689
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /dbconnect.html HTTP/1.1" 200 3600
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Attribute/ HTTP/1.1" 200 925
+"GET /formul.html HTTP/1.1" 200 18028
+"POST /Formula_Show/ HTTP/1.1" 200 1221
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 397
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 53
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 369
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 397
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+"POST /Home_page/ HTTP/1.1" 200 8689
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 364
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 399
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 399
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 512
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 401
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 512
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 512
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 512
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /Add_Column/
+"POST /Add_Column/ HTTP/1.1" 400 506
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Add_Column/ HTTP/1.1" 200 86
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Add_Column/ HTTP/1.1" 200 87
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 8789
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 8789
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Home_page/ HTTP/1.1" 200 8789
+"POST /Home_page/ HTTP/1.1" 200 8789
+"POST /Home_page/ HTTP/1.1" 200 8789
+"POST /Home_page/ HTTP/1.1" 200 8789
+"POST /Home_page/ HTTP/1.1" 200 8789
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 8789
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /dbconnect.html HTTP/1.1" 200 3726
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /CallsPredictJson/ HTTP/1.1" 200 819
+"POST /CallsPredictJson/ HTTP/1.1" 200 985
+"POST /CallsPredictJson/ HTTP/1.1" 200 926
+"POST /Average_Talktime/ HTTP/1.1" 200 705
+"POST /Idletime/ HTTP/1.1" 200 540
+"POST /Idletime/ HTTP/1.1" 200 540
+"POST /Idletime/ HTTP/1.1" 200 540
+"POST /Idletime/ HTTP/1.1" 200 540
+"POST /Idletime/ HTTP/1.1" 200 540
+"POST /Idletime/ HTTP/1.1" 200 540
+"POST /Calls_per_Agent/ HTTP/1.1" 200 730
+"POST /Handing_time/ HTTP/1.1" 200 798
+"POST /Handing_time/ HTTP/1.1" 200 817
+"POST /Calls_per_Agent/ HTTP/1.1" 200 603
+"POST /Idletime/ HTTP/1.1" 200 385
+"POST /Average_Talktime/ HTTP/1.1" 200 615
+"POST /CallsPredictJson/ HTTP/1.1" 200 797
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 8789
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /dbconnect.html HTTP/1.1" 200 3726
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Attribute/ HTTP/1.1" 200 969
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1221
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 8789
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /dbconnect.html HTTP/1.1" 200 3726
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Attribute/ HTTP/1.1" 200 412
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1221
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Add_Formula/ HTTP/1.1" 200 41
+"POST /Formula_Show/ HTTP/1.1" 200 1277
+"POST /Attribute/ HTTP/1.1" 200 969
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1277
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Add_Formula/ HTTP/1.1" 200 41
+"POST /Formula_Show/ HTTP/1.1" 200 1314
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Attribute/ HTTP/1.1" 200 412
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1314
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Add_Formula/ HTTP/1.1" 200 41
+"POST /Formula_Show/ HTTP/1.1" 200 1369
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"POST /CallsPredictJson/ HTTP/1.1" 200 797
+"POST /Average_Talktime/ HTTP/1.1" 200 615
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Calls_per_Agent/ HTTP/1.1" 200 603
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 9150
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 9150
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Calls_per_Agent/ HTTP/1.1" 200 603
+"POST /Calls_per_Agent/ HTTP/1.1" 200 610
+"POST /Idletime/ HTTP/1.1" 200 394
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Average_Talktime/ HTTP/1.1" 200 702
+"POST /Average_Talktime/ HTTP/1.1" 200 748
+"POST /Average_Talktime/ HTTP/1.1" 200 748
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Average_Talktime/ HTTP/1.1" 200 726
+"POST /Average_Talktime/ HTTP/1.1" 200 726
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Average_Talktime/ HTTP/1.1" 200 619
+"POST /Average_Talktime/ HTTP/1.1" 200 619
+"POST /Idletime/ HTTP/1.1" 200 372
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Idletime/ HTTP/1.1" 200 394
+"POST /Idletime/ HTTP/1.1" 200 565
+"POST /Idletime/ HTTP/1.1" 200 565
+"POST /Idletime/ HTTP/1.1" 200 565
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 9150
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Snooze_notification/ HTTP/1.1" 200 40
+"POST /Home_page/ HTTP/1.1" 200 9150
+"POST /Home_page/ HTTP/1.1" 200 9150
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Home_page/ HTTP/1.1" 200 9150
+"POST /Home_page/ HTTP/1.1" 200 9150
+"POST /Home_page/ HTTP/1.1" 200 9150
+"POST /Home_page/ HTTP/1.1" 200 9150
+"POST /Attribute_Description_update/ HTTP/1.1" 200 49
+"POST /Home_page/ HTTP/1.1" 200 9154
+"POST /Attribute_status_Update/ HTTP/1.1" 200 51
+"POST /Home_page/ HTTP/1.1" 200 9152
+"POST /Attribute_status_Update/ HTTP/1.1" 200 53
+"POST /Home_page/ HTTP/1.1" 200 9154
+"POST /Home_page/ HTTP/1.1" 200 9154
+"POST /Home_page/ HTTP/1.1" 200 9154
+"GET /dbconnect.html HTTP/1.1" 200 3726
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 9154
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /dbconnect.html HTTP/1.1" 200 3726
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Attribute/ HTTP/1.1" 200 969
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1369
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1369
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Home_page/ HTTP/1.1" 200 9154
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /CallsPredictJson/ HTTP/1.1" 200 985
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Snooze_notification/ HTTP/1.1" 200 40
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Home_page/ HTTP/1.1" 200 9154
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /CallsPredictJson/ HTTP/1.1" 200 995
+"POST /CallsPredictJson/ HTTP/1.1" 200 995
+"POST /Average_Talktime/ HTTP/1.1" 200 726
+"POST /Average_Talktime/ HTTP/1.1" 200 719
+"POST /Handing_time/ HTTP/1.1" 200 817
+"POST /Handing_time/ HTTP/1.1" 200 669
+"POST /Handing_time/ HTTP/1.1" 200 920
+"GET / HTTP/1.1" 200 14340
+"POST /Handing_time/ HTTP/1.1" 200 825
+"POST /Handing_time/ HTTP/1.1" 200 669
+"POST /Handing_time/ HTTP/1.1" 200 890
+"POST /Average_Talktime/ HTTP/1.1" 200 748
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1369
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1369
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14340
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14340
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"POST /CallsPredictJson/ HTTP/1.1" 200 797
+"POST /Average_Talktime/ HTTP/1.1" 200 756
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Idletime/ HTTP/1.1" 200 575
+"POST /Calls_per_Agent/ HTTP/1.1" 200 734
+"POST /Handing_time/ HTTP/1.1" 200 920
+"POST /CallsPredictJson/ HTTP/1.1" 200 797
+"POST /Average_Talktime/ HTTP/1.1" 200 615
+"POST /Idletime/ HTTP/1.1" 200 385
+"POST /Calls_per_Agent/ HTTP/1.1" 200 603
+"POST /Handing_time/ HTTP/1.1" 200 669
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 9054
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14632
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 9054
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14632
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14343
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14343
+- Broken pipe from ('127.0.0.1', 58516)
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14343
+- Broken pipe from ('127.0.0.1', 58517)
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14343
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14343
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14343
+"GET / HTTP/1.1" 200 14343
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14343
+"GET / HTTP/1.1" 200 14343
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14343
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14343
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14343
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 9054
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Recommendation_status_Update/ HTTP/1.1" 200 53
+"POST /Home_page/ HTTP/1.1" 200 9056
+"POST /Recommendation_status_Update/ HTTP/1.1" 200 53
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Attribute_status_Update/ HTTP/1.1" 200 51
+"POST /Home_page/ HTTP/1.1" 200 9056
+"POST /Formula_status_Update/ HTTP/1.1" 200 53
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Home_page/ HTTP/1.1" 200 9058
+"POST /Formula_status_Update/ HTTP/1.1" 200 51
+"POST /Home_page/ HTTP/1.1" 200 9056
+"GET /dbconnect.html HTTP/1.1" 200 3726
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Attribute/ HTTP/1.1" 200 896
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1369
+"POST /Send/ HTTP/1.1" 200 20
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1369
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Add_Formula/ HTTP/1.1" 200 41
+"POST /Formula_Show/ HTTP/1.1" 200 1410
+"POST /Send/ HTTP/1.1" 200 20
+"POST /GroupRules/ HTTP/1.1" 200 47
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1410
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+- Broken pipe from ('127.0.0.1', 58818)
+- Broken pipe from ('127.0.0.1', 58825)
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Store_token/ HTTP/1.1" 200 42
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"POST /Average_Talktime/ HTTP/1.1" 200 756
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Idletime/ HTTP/1.1" 200 575
+"POST /Calls_per_Agent/ HTTP/1.1" 200 734
+"POST /Handing_time/ HTTP/1.1" 200 920
+"POST /CallsPredictJson/ HTTP/1.1" 200 797
+"POST /Average_Talktime/ HTTP/1.1" 200 615
+"POST /Idletime/ HTTP/1.1" 200 385
+"POST /Calls_per_Agent/ HTTP/1.1" 200 603
+"GET /Home.html HTTP/1.1" 200 13135
+"POST /Home_page/ HTTP/1.1" 200 9168
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Attribute_Description_update/ HTTP/1.1" 200 49
+"POST /Home_page/ HTTP/1.1" 200 9165
+"POST /Send/ HTTP/1.1" 200 20
+"GET /dbconnect.html HTTP/1.1" 200 3726
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Home_page/ HTTP/1.1" 200 9165
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /dbconnect.html HTTP/1.1" 200 3726
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Attribute/ HTTP/1.1" 200 896
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1410
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Add_Formula/ HTTP/1.1" 200 41
+"POST /Formula_Show/ HTTP/1.1" 200 1466
+"POST /Send/ HTTP/1.1" 200 20
+"POST /GroupRules/ HTTP/1.1" 200 47
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1466
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+- Broken pipe from ('127.0.0.1', 59113)
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Snooze_notification/ HTTP/1.1" 200 40
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /Send/ HTTP/1.1" 200 20
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1466
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+"GET /formul.html HTTP/1.1" 200 18252
+"POST /Formula_Show/ HTTP/1.1" 200 1466
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+- Broken pipe from ('127.0.0.1', 63005)
+"POST /CallsPredictJson/ HTTP/1.1" 200 1038
+"GET / HTTP/1.1" 200 14343
+"GET /firebase-messaging-sw.js HTTP/1.1" 200 3193
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Contact center2\Predivtive_Analysis\Call_Prediction\views.py changed, reloading.
+Watching for file changes with StatReloader
